@@ -1,6 +1,6 @@
 {
-  "name": "iptocountry",
-  "version": "1.0.2",
+  "name": "@kxpvcr/ip-to-country",
+  "version": "1.0.0",
   "description": "A module for detecting country information of IP addresses without any API call",
   "main": "lib/iptocountry.js",
   "scripts": {
@@ -9,16 +9,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/devfacet/iptocountry.git"
+    "url": "https://github.com/kxpvcr/iptocountry.git"
   },
   "keywords": [
     "ip",
     "country",
     "lookup"
   ],
-  "author": "devfacet",
+  "author": "kxpvcr",
   "license": "MIT",
-  "homepage": "http://github.com/devfacet/iptocountry",
+  "homepage": "http://github.com/kxpvcr/iptocountry",
   "dependencies": {
     "utilex": "3.x.x",
     "q": "1.4.x"
