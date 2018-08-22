@@ -1,6 +1,6 @@
 {
   "name": "@kxpvcr/ip-to-country",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Downloads a database of country-specific IP ranges. Queries the database on a single IP or array of IPs to find their country information.",
   "main": "index.js",
   "scripts": {
