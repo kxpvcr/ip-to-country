@@ -3,9 +3,13 @@
   "version": "1.0.0",
   "description": "A module for detecting country information of IP addresses without any API call",
   "main": "lib/iptocountry.js",
+  "version": "1.0.1",
+  "description": "Downloads a database of country-specific IP ranges. Queries the database on a single IP or array of IPs to find their country information.",
+  "main": "index.js",
   "scripts": {
-    "start": "node app/index.js",
-    "test": "node node_modules/mocha/bin/mocha --reporter spec test/test-all.js"
+    "start": "node get-db.js",
+    "test": "node node_modules/mocha/bin/mocha --reporter spec 'test/**.spec.js'",
+    "lint": "eslint -c .eslintrc.json index.js"
   },
   "repository": {
     "type": "git",
