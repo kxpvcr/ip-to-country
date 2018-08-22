@@ -1,6 +1,6 @@
 # IP to Country
 
-[![NPM][npm-image]][npm-url] [![Build Status][travis-image]][travis-url]
+[![NPM][npm-image]][npm-url]
 
 IP to Country is a module for detecting country information of IP addresses without any API call.
 
@@ -106,7 +106,7 @@ For performance test; `ab -n 1000 http://localhost:12080/search?ip=74.125.225.71
 
 ## License
 
-Licensed under The MIT License (MIT)  
+Licensed under The MIT License (MIT)
 For the full copyright and license information, please view the LICENSE.txt file.
 
 [npm-url]: http://npmjs.org/package/iptocountry
