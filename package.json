@@ -1,8 +1,5 @@
 {
   "name": "@kxpvcr/ip-to-country",
-  "version": "1.0.0",
-  "description": "A module for detecting country information of IP addresses without any API call",
-  "main": "lib/iptocountry.js",
   "version": "1.0.1",
   "description": "Downloads a database of country-specific IP ranges. Queries the database on a single IP or array of IPs to find their country information.",
   "main": "index.js",
@@ -24,11 +21,13 @@
   "license": "MIT",
   "homepage": "http://github.com/kxpvcr/iptocountry",
   "dependencies": {
-    "utilex": "3.x.x",
-    "q": "1.4.x"
+    "request": "^2.87.0"
   },
   "devDependencies": {
-    "mocha": "3.2.x",
-    "chai": "3.5.x"
+    "chai": "3.5.x",
+    "eslint": "^5.2.0",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-security": "^1.4.0",
+    "mocha": "^5.2.0"
   }
 }
